@@ -1,0 +1,88 @@
+:root{
+    --grey1:rgb(114, 109, 138);
+    --purple1: rgb(16, 14, 38);
+    --purple2:rgb(38, 28, 58);
+    --purple3: rgb(50, 38, 76);
+    --purple4: rgb(65, 35, 146);
+    --yellow1: rgb(242, 221, 27);
+    --yellow2: rgb(251, 203, 81);
+    --yellow3: rgb(219, 192, 138);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Bree Serif", serif;
+}
+
+body{
+    background-color: var(--purple1);
+}
+
+header{
+    position: sticky;
+    width: 100%;
+    background-color: var(--purple2);
+    color: var(--yellow1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+    box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.336);
+}
+
+.logo{
+    font-style: italic;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.menu-open{
+    font-size: larger;
+}
+
+.menu-close{
+    font-size: larger;
+    display: none;
+}
+
+.nav{
+    display: none;
+    position: absolute;
+    justify-content: center;
+    width: 100vw;
+    height: 94.5vh;
+    left: 0;
+    background-color: var(--purple2);
+    text-align: center;
+    padding-top: 15%;
+}
+
+li{
+    list-style: none;
+}
+
+.main-link{
+    color: var(--yellow1);
+    padding: 10% 0;
+    font-size: xx-large;
+}
+
+.sub-link{
+    color: var(--yellow3);
+    font-size: large;
+    padding: 2% 0;
+    text-align: center;
+}
+
+.portland, .outside{
+    display: none;
+    flex-direction: column;
+    text-align: center;
+}
+
+main{
+    padding: 5%;
+    background-color: var(--purple3);
+}
