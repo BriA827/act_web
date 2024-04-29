@@ -5,11 +5,13 @@ portlandMain = document.querySelector(".main-portland")
 portlandSubs = document.querySelector(".portland")
 outsideMain = document.querySelector(".main-outside")
 outsideSubs = document.querySelector(".outside")
+screen = document.querySelector("main")
 
 openNav.addEventListener("click", () =>{
     openNav.style.display = "none"
     closeNav.style.display = "flex"
     navMobile.style.display = "flex"
+    screen.style.height = "0vh"
 })
 
 closeNav.addEventListener("click", () =>{
@@ -18,6 +20,7 @@ closeNav.addEventListener("click", () =>{
     navMobile.style.display = "none"
     portlandSubs.style.display = "none"
     outsideSubs.style.display = "none"
+    screen.style.height = "auto"
 })
 
 portlandMain.addEventListener("click", () =>{
