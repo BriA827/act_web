@@ -138,10 +138,12 @@ h2{
 }
 
 .slides{
-    background-color: var(--grey1);
     width: 90vw;
-    line-height: 1000%;
     margin-bottom: 3%;
+}
+
+img{
+    width: 100%;
 }
 
 .buttons{
