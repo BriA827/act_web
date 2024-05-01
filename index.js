@@ -10,7 +10,7 @@ footer = document.querySelector("footer")
 
 fwdBtn = document.querySelector(".forward-button")
 bckBtn = document.querySelector(".backward-button")
-slideMain = document.querySelector(".slide-img")
+slideMain = document.querySelector(".slides-img")
 const slideSource = ["b&b_guest_end", "ado_dogberry"]
 // currently only 2 images added in, more will be added
 let slideCount = 0
