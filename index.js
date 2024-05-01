@@ -9,9 +9,11 @@ screen = document.querySelector("main")
 footer = document.querySelector("footer")
 
 fwdBtn = document.querySelector(".forward-button")
-bckdBtn = document.querySelector(".backward-button")
+bckBtn = document.querySelector(".backward-button")
 slideMain = document.querySelector(".slide-img")
-const slideSource = ["b&b_gues_end", "ado_dogberry"]
+const slideSource = ["b&b_guest_end", "ado_dogberry"]
+// currently only 2 images added in, more will be added
+let slideCount = 0
 
 openNav.addEventListener("click", () =>{
     openNav.style.display = "none"
@@ -42,6 +44,17 @@ outsideMain.addEventListener("click", () =>{
 })
 
 fwdBtn.addEventListener("click", () =>{
-    slideMain.src = "act_web_images/" + slideSource[1] + ".jpg"
-    console.log(slideSource[1])
+    slideCount += 1
+    if (slideCount >= (slideSource.length)){
+        slideCount=0
+    }
+    slideMain.src = "act_web_images/" + slideSource[slideCount] + ".jpg"
+})
+
+bckBtn.addEventListener("click", () =>{
+    slideCount -= 1
+    if (slideCount < 0){
+        slideCount = slideSource.length - 1
+    }
+    slideMain.src = "act_web_images/" + slideSource[slideCount] + ".jpg"
 })
