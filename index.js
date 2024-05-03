@@ -11,9 +11,14 @@ footer = document.querySelector("footer")
 fwdBtn = document.querySelector(".forward-button")
 bckBtn = document.querySelector(".backward-button")
 slideMain = document.querySelector(".slides-img")
-const slideSource = ["b&b_guest_end", "ado_dogberry"]
+const slideSource = ["ado_dogberry", "b&b_guest_end"]
 // currently only 2 images added in, more will be added
 let slideCount = 0
+
+deskPortland = document.querySelector(".desk-portland")
+deskOutaide = document.querySelector(".desk-outside")
+deskSubsPortland = document.querySelector(".portland-desk")
+deskSubsOutside = document.querySelector(".outside-desk")
 
 openNav.addEventListener("click", () =>{
     openNav.style.display = "none"
@@ -57,4 +62,9 @@ bckBtn.addEventListener("click", () =>{
         slideCount = slideSource.length - 1
     }
     slideMain.src = "act_web_images/" + slideSource[slideCount] + ".jpg"
+})
+
+deskPortland.addEventListener("click", ()=>{
+    console.log("click")
+    deskSubsPortland.style.display = "flex"
 })
