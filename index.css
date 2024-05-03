@@ -217,11 +217,12 @@ footer{
     }
 
     .header-hr{
-        margin: 2% 0%;
-        padding: 0%;
+        margin: .5% 0;
+        padding: 0;
         width: 100vw;
-        left: 0;
-        position: absolute;
+        display: none;
+        left: 0px;
+        position: fixed;
     }
 
     .desk_main_link{
@@ -230,16 +231,17 @@ footer{
         color: var(--yellow1);
     }
 
-    .portland-desk{
+    .portland-desk, .outside-desk{
         display: none;
         width: 100%;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
-        font-size: larger;
+        font-size: x-large;
         color: var(--yellow3);
+        padding: 2% 0 1% 0;
     }
 
-    .desk_main_link:hover, .fa-solid:hover, .fa-brands:hover{
+    .desk_main_link:hover, .fa-solid:hover, .fa-brands:hover, .desk-sub:hover{
         cursor: pointer;
     }
 

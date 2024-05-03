@@ -66,6 +66,12 @@ bckBtn.addEventListener("click", () =>{
 })
 
 deskPortland.addEventListener("click", ()=>{
+    console.log("click")
     deskSubsPortland.style.display = "flex"
+    headNavHr.style.display = "flex"
+})
+
+deskOutside.addEventListener("click", ()=>{
+    deskSubsOutside.style.display = "flex"
     headNavHr.style.display = "flex"
 })
