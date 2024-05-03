@@ -16,6 +16,10 @@
     font-family: "Bree Serif", serif;
 }
 
+*:hover{
+    cursor: default;
+}
+
 body{
     background-color: var(--purple1);
 }
@@ -224,6 +228,19 @@ footer{
         display: flex;
         text-decoration: none;
         color: var(--yellow1);
+    }
+
+    .portland-desk{
+        display: none;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        font-size: larger;
+        color: var(--yellow3);
+    }
+
+    .desk_main_link:hover, .fa-solid:hover, .fa-brands:hover{
+        cursor: pointer;
     }
 
     .menu-open{
