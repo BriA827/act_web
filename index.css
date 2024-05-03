@@ -212,6 +212,14 @@ footer{
         align-items: center;
     }
 
+    .header-hr{
+        margin: 2% 0%;
+        padding: 0%;
+        width: 100vw;
+        left: 0;
+        position: absolute;
+    }
+
     .desk_main_link{
         display: flex;
         text-decoration: none;
@@ -292,6 +300,6 @@ footer{
         margin-left: .1%;
     }
     footer{
-        padding: 0 10.5%;
+        padding: 1% 10.5%;
     }
 }

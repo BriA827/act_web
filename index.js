@@ -19,6 +19,7 @@ deskPortland = document.querySelector(".desk-portland")
 deskOutaide = document.querySelector(".desk-outside")
 deskSubsPortland = document.querySelector(".portland-desk")
 deskSubsOutside = document.querySelector(".outside-desk")
+headNavHr = document.querySelector(".header-hr")
 
 openNav.addEventListener("click", () =>{
     openNav.style.display = "none"
@@ -65,6 +66,6 @@ bckBtn.addEventListener("click", () =>{
 })
 
 deskPortland.addEventListener("click", ()=>{
-    console.log("click")
     deskSubsPortland.style.display = "flex"
+    headNavHr.style.display = "flex"
 })
