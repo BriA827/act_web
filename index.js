@@ -16,10 +16,14 @@ const slideSource = ["ado_dogberry", "b&b_guest_end"]
 let slideCount = 0
 
 deskPortland = document.querySelector(".desk-portland")
-deskOutaide = document.querySelector(".desk-outside")
+deskOutside = document.querySelector(".desk-outside")
 deskSubsPortland = document.querySelector(".portland-desk")
 deskSubsOutside = document.querySelector(".outside-desk")
 headNavHr = document.querySelector(".header-hr")
+
+gmailDesk = document.querySelector(".google_desk")
+gmailMobile = document.querySelector(".google_mobile")
+emailBox = document.querySelector(".email")
 
 openNav.addEventListener("click", () =>{
     openNav.style.display = "none"
@@ -65,15 +69,52 @@ bckBtn.addEventListener("click", () =>{
     slideMain.src = "act_web_images/" + slideSource[slideCount] + ".jpg"
 })
 
+let portlandOpen = false
+let outsideOpen = false
+
 deskPortland.addEventListener("click", ()=>{
-    deskSubsPortland.style.display = "flex"
-    deskSubsOutside.style.display = "none"
-    headNavHr.style.display = "flex"
-    
+    if (portlandOpen == false){
+        deskSubsPortland.style.display = "flex"
+        deskSubsOutside.style.display = "none"
+        headNavHr.style.display = "flex"
+        portlandOpen = true
+    }
+    else{
+        deskSubsPortland.style.display = "none"
+        headNavHr.style.display = "none"
+        portlandOpen = false
+    }
 })
 
 deskOutside.addEventListener("click", ()=>{
-    deskSubsOutside.style.display = "flex"
-    deskSubsPortland.style.display = "none"
-    headNavHr.style.display = "flex"
+    if (outsideOpen == false){
+        deskSubsPortland.style.display = "none"
+        deskSubsOutside.style.display = "flex"
+        headNavHr.style.display = "flex"
+        outsideOpen = true
+    }
+    else{
+        deskSubsOutside.style.display = "none"
+        headNavHr.style.display = "none"
+        outsideOpen = false
+    }
+})
+
+gmailDesk.addEventListener("mouseover", ()=>{
+    emailBox.style.display = "flex"
+})
+gmailDesk.addEventListener("mouseout", ()=>{
+    emailBox.style.display = "none"
+})
+
+let gmailOpen = false
+gmailMobile.addEventListener("click", ()=>{
+    if (gmailOpen == false){
+        emailBox.style.display = "flex"
+        gmailOpen = true
+    }
+    else{
+        emailBox.style.display = "none"
+        gmailOpen = false
+    }
 })
