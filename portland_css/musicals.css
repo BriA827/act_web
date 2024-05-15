@@ -1,0 +1,35 @@
+h2{
+    margin-top: 8%;
+    padding-left: 5%;
+}
+
+.musical_group, .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    flex-direction: row;
+}
+
+.left{
+    width: 95%;
+}
+
+.image1, .image2{
+    background-color: white;
+    margin: 2%;
+}
+
+.image1{
+    width: 50vw;
+    height: 20vh;
+}
+
+.image2{
+    width: 20vw;
+    height: 9.7vh;
+    margin: 7% 0;
+}

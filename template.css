@@ -24,6 +24,11 @@ body{
     background-color: var(--purple1);
 }
 
+.index_link{
+    color: var(--yellow1);
+    text-decoration: none;
+}
+
 header{
     position: sticky;
     top: 0;
@@ -83,6 +88,15 @@ li{
     padding: 2% 0;
     text-align: center;
 }
+/* get rid of this later ^ */
+
+.mobile_subs{
+    color: var(--yellow3);
+    font-size: large;
+    padding: 2% 0;
+    text-align: center;
+    text-decoration: none;
+}
 
 .portland, .outside{
     display: none;
@@ -104,7 +118,7 @@ main{
 hr{
     border: 2px solid var(--purple4);
     margin: 5% 0;
-    width: 100%;
+    width: 95%;
 }
 
 h2{
@@ -149,6 +163,10 @@ footer > a{
     padding: 1% 1%;
     background-color: var(--purple1);
     box-shadow: 0px 5px 3px 2px rgba(0, 0, 0, 0.336);
+}
+
+.fa-brands{
+    color: var(--grey1);
 }
 
 .google_desk{
