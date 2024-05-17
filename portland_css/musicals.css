@@ -41,12 +41,13 @@ h2{
 .image1{
     width: 50vw;
     height: 20vh;
+    margin-right: 1%;
 }
 
 .image2{
     width: 25vw;
     height: 9.7vh;
-    margin: 0;
+    margin-bottom: 1%;
 }
 
 /* computer */
