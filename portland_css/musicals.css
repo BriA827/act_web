@@ -15,12 +15,27 @@ h2{
 }
 
 .left{
-    width: 95%;
+    width: 95%;;
+    margin-bottom: 3%;
+}
+
+.title{
+    margin-bottom: 3%;
+    font-size: larger;
+    color: var(--yellow2);
+}
+
+.info{
+    color: var(--yellow3);
 }
 
 .image1, .image2{
     background-color: white;
     margin: 2%;
+}
+
+.small_images{
+    width: 30%;
 }
 
 .image1{
@@ -29,7 +44,47 @@ h2{
 }
 
 .image2{
-    width: 20vw;
+    width: 25vw;
     height: 9.7vh;
-    margin: 7% 0;
+    margin: 0;
+}
+
+/* computer */
+@media (min-width: 700px){
+    h2{
+        padding-left: 2%;
+        margin-top: 5%;
+    }
+    hr{
+        margin: 2%
+    }
+    .musical_group{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 10%;
+    }
+    .image1{
+        width: 19vw;
+        height: 35vh;
+    }
+    .image2{
+        width: 10vw;
+        height: 17vh;
+    }
+    .right{
+        margin-right: 2%;
+    }
+    .left{
+        width: 30%;
+        margin: 0 8%;
+    }
+    .title{
+        font-size: xx-large;
+    }
+    .info{
+        font-size: larger;
+    }
+    .swap_sides{
+        flex-direction: row-reverse;
+    }
 }

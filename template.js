@@ -55,11 +55,13 @@ deskPortland.addEventListener("click", ()=>{
         deskSubsOutside.style.display = "none"
         headNavHr.style.display = "flex"
         portlandOpen = true
+        outsideOpen = false
     }
     else{
         deskSubsPortland.style.display = "none"
         headNavHr.style.display = "none"
         portlandOpen = false
+        outsideOpen = false
     }
 })
 
@@ -69,11 +71,13 @@ deskOutside.addEventListener("click", ()=>{
         deskSubsOutside.style.display = "flex"
         headNavHr.style.display = "flex"
         outsideOpen = true
+        portlandOpen = false
     }
     else{
         deskSubsOutside.style.display = "none"
         headNavHr.style.display = "none"
         outsideOpen = false
+        portlandOpen = false
     }
 })
 
