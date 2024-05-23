@@ -3,13 +3,51 @@ h2{
     padding-left: 5%;
 }
 
+p{
+    color: var(--yellow3);
+}
+
+.text_side{
+    margin: 0 3%;
+    font-size: small;
+}
+
+.imgs{
+    margin: 5% 0;
+}
+
+.image1{
+    width: 60vw;
+    height: 25vh;
+    margin: 1%;
+}
+
 /* computer */
 @media (min-width: 700px){
     h2{
+        margin: 3% 0 0 0;
         padding-left: 2%;
-        margin-top: 5%;
     }
     hr{
         margin: 2%
     }
+    .split{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
+        margin-bottom: 5%;
+    }
+    .text_side{
+        padding-top: 1%;
+        width: 80%;
+        margin: 0 5% 0 10%;
+        font-size: medium;
+    }
+    .image1{
+        width: 28vw;
+        height: 44vh;
+        margin: 1% 0;
+    }
+    
 }
