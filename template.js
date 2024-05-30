@@ -54,12 +54,16 @@ deskPortland.addEventListener("click", ()=>{
         deskSubsPortland.style.display = "flex"
         deskSubsOutside.style.display = "none"
         headNavHr.style.display = "flex"
+        deskPortland.style.transform = "none"
+        deskPortland.style.scale = "1.35"
         portlandOpen = true
         outsideOpen = false
     }
     else{
         deskSubsPortland.style.display = "none"
         headNavHr.style.display = "none"
+        deskPortland.style.hover.transform.scale = "1.35"
+        deskPortland.style.scale = "1"
         portlandOpen = false
         outsideOpen = false
     }
