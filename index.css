@@ -79,8 +79,7 @@ button{
     .img_desk{
         display: flex;
         background-color: white;
-        width: 50%;
-        margin: 2% 7% 2% 0;
+        width: 25%;
     }
     .num_bottom{
         display: none;
