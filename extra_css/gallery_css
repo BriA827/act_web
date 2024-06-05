@@ -1,0 +1,15 @@
+h2{
+    margin-top: 8%;
+    padding-left: 5%;
+}
+
+/* computer */
+@media (min-width: 700px){
+    h2{
+        margin: 3% 0 0 0;
+        padding-left: 2%;
+    }
+    hr{
+        margin: 1%
+    }
+}
