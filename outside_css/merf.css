@@ -41,6 +41,22 @@ h2{
     display: inline;
 }
 
+.badge{
+    position: absolute;
+}
+
+.badge_2022{
+    width: 20%;
+    top: 23%;
+    right: 7%;
+}
+
+.badge_2023{
+    width: 20%;
+    bottom: -47%;
+    left: 7%;
+}
+
 /* computer */
 @media (min-width: 700px){
     .mobile_img{
@@ -83,5 +99,20 @@ h2{
         align-self: center;
         margin-top: 2%;
         width: 60%;
+    }
+    .badge{
+        position: fixed;
+    }
+    
+    .badge_2022{
+        width: 10%;
+        top: 6%;
+        left: 0;
+    }
+    
+    .badge_2023{
+        width: 14%;
+        top: 6%;
+        left: 87%;
     }
 }
