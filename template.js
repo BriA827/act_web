@@ -22,9 +22,9 @@ openNav.addEventListener("click", () =>{
     openNav.style.display = "none"
     closeNav.style.display = "flex"
     navMobile.style.display = "flex"
-    screen.style.height = "0vh"
+    screen.style.display = "none"
     footer.style.position = "absolute"
-    footer.style.bottom = "0px"
+    c
 })
 
 closeNav.addEventListener("click", () =>{
@@ -33,7 +33,7 @@ closeNav.addEventListener("click", () =>{
     navMobile.style.display = "none"
     portlandSubs.style.display = "none"
     outsideSubs.style.display = "none"
-    screen.style.height = "auto"
+    screen.style.display = "flex"
     footer.style.position = "flex"
     footer.style.bottom = "auto"
 })

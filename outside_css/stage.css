@@ -37,15 +37,13 @@ h2{
 
 .title{
     color: var(--yellow2);
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     font-size: x-large;
 }
 
 .play_image{
-    height: 25vh;
-    width: 65vw;
-    background-color: white;
-    margin: 3% 0;
+    width: 35vw;
+    height: 15vh;
 }
 
 .imgs{
@@ -56,10 +54,13 @@ h2{
     justify-content: center;
 }
 
-.play_image{
-    width: 35vw;
-    height: 15vh;
+.img_text{
     margin: 1.5%;
+    border: 1px solid red;
+}
+
+.hover_text{
+    display: none;
 }
 
 
@@ -75,20 +76,30 @@ h2{
     }
 
     .image{
-        height: 50vh;
+        height: 55vh;
     }
 
     .title{
         font-size: xx-large;
-        margin-bottom: 3%;
+        margin: 1.5%;
     }
     .play_image{
         width: 20vw;
         height: 30vh;
-        margin: 1.5% 3%
     }
     .group{
         padding: 0;
-        justify-content: space-around;
+        margin-bottom: 2%;
+    }
+
+    .imgs{
+        justify-content: space-evenly;
+        margin: 0 2%;
+    }
+
+    .hover_text{
+        display: flex;
+        position: absolute;
+        bottom: 10px;
     }
 }
