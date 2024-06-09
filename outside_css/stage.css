@@ -56,7 +56,6 @@ h2{
 
 .img_text{
     margin: 1.5%;
-    border: 1px solid red;
 }
 
 .hover_text{
@@ -83,23 +82,42 @@ h2{
         font-size: xx-large;
         margin: 1.5%;
     }
+    
     .play_image{
         width: 20vw;
         height: 30vh;
     }
     .group{
         padding: 0;
-        margin-bottom: 2%;
+        margin: 0;
     }
 
     .imgs{
         justify-content: space-evenly;
-        margin: 0 2%;
+        margin: 2% 2%;
     }
 
     .hover_text{
+        display: inline;
+        background-color: rgba(0, 0, 0, 0.637);
+        opacity: 0;
+        transition: .45s ease;
+        color: white;
+        padding: 6%;
+        text-align: center;
+        width: 100%;
+        transform: translateY(-100%);
+        font-size: larger;
+    }
+
+    .img_text{
         display: flex;
-        position: absolute;
-        bottom: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+    }
+    .img_text:hover .hover_text{
+        opacity: 1;
     }
 }
