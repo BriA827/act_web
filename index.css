@@ -105,7 +105,6 @@ button{
     .me{
         width: auto;
         height: auto;
-        box-shadow: none;
     }
     .productions{
         display: flex;
@@ -131,5 +130,9 @@ button{
     }
     button{
         font-size: 40px;
+    }
+
+    .img_desk, .me, .slides-img{
+        box-shadow: 0px 5px 10px 15px rgba(0, 0, 0, 0.123);
     }
 }

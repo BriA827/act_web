@@ -1,15 +1,50 @@
-h2{
+.title{
     margin-top: 8%;
     padding-left: 5%;
 }
 
+.top_img{
+    display: none;
+    width: 100%;
+    height: 50%;
+    box-shadow: 0px 5px 10px 15px rgba(0, 0, 0, 0.123);
+}
+
+.img_hr{
+    display: none;
+}
+
+.image{
+    width: 20vw;
+    height: 15vh;
+    object-fit: cover;
+    margin: .5%;
+}
+
 /* computer */
 @media (min-width: 700px){
-    h2{
-        margin: 3% 0 0 0;
+    .title{
+        margin: 3% 0 0% 0;
         padding-left: 2%;
     }
-    hr{
-        margin: 1%
+    .err{
+        margin: 2%;
+    }
+
+    .top_img{
+        width: 50%;
+        height: 10%;
+    }
+
+    .imgs{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .image{
+        width: 15vw;
+        height: 30vh;
     }
 }
