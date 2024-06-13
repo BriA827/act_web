@@ -8,17 +8,21 @@ p{
 }
 
 .text_side{
-    margin: 0 3%;
+    margin: 0 5%;
     font-size: small;
 }
 
 .imgs{
     margin: 5% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .image1{
-    width: 60vw;
-    height: 25vh;
+    width: 40vw;
+    height: 17.5vh;
     margin: 1%;
 }
 
@@ -33,10 +37,10 @@ p{
     }
     .split{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: start;
-        margin-bottom: 5%;
+        margin-bottom: 1%;
     }
     .text_side{
         padding-top: 1%;
@@ -45,9 +49,12 @@ p{
         font-size: medium;
     }
     .image1{
-        width: 28vw;
-        height: 44vh;
-        margin: 1% 0;
+        width: 22vw;
+        height: 35vh;
+        margin: 1%;
+    }
+    .imgs{
+        margin: 1%;
     }
     
 }

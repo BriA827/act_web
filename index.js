@@ -1,8 +1,7 @@
 fwdBtn = document.querySelector(".forward-button")
 bckBtn = document.querySelector(".backward-button")
 slideMain = document.querySelector(".slides-img")
-const slideSource = ["ado_dogberry", "b&b_guest_end"]
-// currently only 2 images added in, more will be added
+const slideSource = ["ado_dogberry", "pirate_merf", "b&b_guest_end", "merf_ariel", "ham_ger", "b&b_cast_stage"]
 let slideCount = 0
 
 fwdBtn.addEventListener("click", () =>{

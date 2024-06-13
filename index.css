@@ -1,8 +1,15 @@
-.hero, .quote{
+.hero, .me{
     width: 100vw;
-    background-color: white;
-    height: 12rem;
     box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.274);
+}
+
+.hero{
+    background-color: white;
+}
+
+.top{
+    padding: 2% 1%;
+    width: 70vw;
 }
 
 .about{
@@ -26,8 +33,15 @@
     font-size: larger;
 }
 
-.quote{
+.me{
     margin: 1.5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cos{
+    height: 42.5vh;
 }
 
 .num_bottom{
@@ -62,9 +76,6 @@ button{
 
 /* computer */
 @media (min-width: 700px){
-    .hero{
-        height: 30rem;
-    }
     .about{
         display: flex;
         flex-direction: row;
@@ -85,13 +96,16 @@ button{
         display: none;
     }
     .desk_second_half{
+        width: 70%;
         display: flex;
         flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
     }
-    .quote{
-        width: 55vw;
-        height: 40vh;
-        margin-right: 10%;
+    .me{
+        width: auto;
+        height: auto;
+        box-shadow: none;
     }
     .productions{
         display: flex;
@@ -100,7 +114,7 @@ button{
         justify-content: center;
         align-items: center;
         font-size: x-large;
-        margin-left: 5%;
+        padding-left: 25%;
     }
     .slides-img{
         height: 70vh;

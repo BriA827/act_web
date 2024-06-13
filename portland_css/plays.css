@@ -3,12 +3,17 @@ h2{
     padding-left: 5%;
 }
 
-.large_pic{
+.info{
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.intro{
+    color: var(--yellow3);
+    line-height: 2;
 }
 
 .image{
@@ -43,14 +48,17 @@ h2{
 
 .play_image{
     height: 18vh;
-    width: 50vw;
-    background-color: white;
+    width: 50vw
 }
 
 @media (min-width: 700px) {
     h2{
         margin: 3% 0 0 0;
         padding-left: 2%;
+    }
+    .intro{
+        font-size: larger;
+        margin: 0 2.5%;
     }
     .image{
         height: 30vh;
@@ -65,5 +73,6 @@ h2{
     }
     .group{
         margin: 1%;
+        padding: 1% 5%;
     }
 }
