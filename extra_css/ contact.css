@@ -15,6 +15,8 @@ form, .inputs{
 input, textarea{
     background-color: var(--purple2);
     color: var(--yellow1);
+    padding: 1%;
+    margin: 5% 0;
 }
 
 textarea{
@@ -49,6 +51,9 @@ input[type="submit"], input[type="reset"]{
     .inputs{
         padding: 0%;
         width: 60%;
+    }
+    input, textarea{
+        margin: 3% 0;
     }
     .butts{
         flex-direction: column;
