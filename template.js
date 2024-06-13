@@ -24,7 +24,7 @@ openNav.addEventListener("click", () =>{
     navMobile.style.display = "flex"
     screen.style.display = "none"
     footer.style.position = "absolute"
-    c
+    footer.style.bottom = "0px"
 })
 
 closeNav.addEventListener("click", () =>{

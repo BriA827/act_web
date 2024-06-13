@@ -31,6 +31,12 @@
         margin: 2%;
     }
 
+    .top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .top_img{
         width: 50%;
         height: 10%;

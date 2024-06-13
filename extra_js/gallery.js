@@ -4,7 +4,7 @@ imgHr = document.querySelector(".img_hr")
 
 images.forEach((image) => {
     image.addEventListener("click", ()=> {
-        topImage.style.display = "block"
+        topImage.style.display = "flex"
         imgHr.style.display = "flex"
         topImage.src = image.src
         document.documentElement.scrollTop = 50
