@@ -3,6 +3,35 @@ h2{
     padding-left: 5%;
 }
 
+form, .inputs{
+    color: var(--yellow3);
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 100%;
+    padding: 0 5%;
+}
+
+input, textarea{
+    background-color: var(--purple2);
+    color: var(--yellow1);
+}
+
+textarea{
+    height: 7rem;
+}
+
+input[type="submit"], input[type="reset"]{
+    align-self: center;
+    margin-bottom: 5%;
+    padding: 3% 5%;
+}
+
+.butts{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 /* computer */
 @media (min-width: 700px){
@@ -12,5 +41,19 @@ h2{
     }
     hr{
         margin: 2%
+    }
+    form{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .inputs{
+        padding: 0%;
+        width: 60%;
+    }
+    .butts{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
     }
 }
