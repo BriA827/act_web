@@ -59,14 +59,14 @@
     <main>
         <h2>Contact</h2>
         <hr>
-        <form action="mailto:bri.auspland@gmail.com" method="post" enctype="text/plain">
+        <form action="email.php" method="post" enctype="text/plain">
            <div class="inputs">
-                Name:<br>
-                <input type="text" name="name"><br>
+                Subject:<br>
+                <input type="text" name="subject" required><br>
                 E-mail:<br>
-                <input type="text" name="mail"><br>
+                <input type="text" name="mail" required><br>
                 Comment:<br>
-                <textarea name="text" name="comment" size="50" wrap="soft"> </textarea><br><br>
+                <textarea name="text" name="comment" size="50" wrap="soft" required> </textarea><br><br>
            </div>
             <div class="butts">
                 <input type="submit" value="Send">
