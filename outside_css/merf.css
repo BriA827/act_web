@@ -43,18 +43,23 @@ h2{
 
 .badge{
     position: absolute;
+    width: 20%;
 }
 
 .badge_2022{
-    width: 20%;
     top: 23%;
     right: 7%;
 }
 
 .badge_2023{
-    width: 20%;
-    bottom: -65%;
+    bottom: -75%;
     left: 7%;
+}
+
+.badge_2024{
+    width: 18%;
+    bottom: -193%;
+    right: 7%;
 }
 
 /* computer */
@@ -98,7 +103,7 @@ h2{
     .image2{
         align-self: center;
         margin-top: 2%;
-        width: 60%;
+        width: 70%;
     }
     .badge{
         position: fixed;
