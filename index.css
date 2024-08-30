@@ -76,6 +76,10 @@ button{
 
 /* computer */
 @media (min-width: 700px){
+    .top{
+        height: 35vh;
+        width: 55vw;
+    }
     .about{
         display: flex;
         flex-direction: row;
