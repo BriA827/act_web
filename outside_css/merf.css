@@ -52,6 +52,10 @@ h2{
     margin: 0 .2rem;
 }
 
+.instructions{
+    font-size: large;
+}
+
 
 /* computer */
 @media (min-width: 700px){
@@ -98,5 +102,8 @@ h2{
     }
     .badge{
         width: 6rem;
+    }
+    .instructions{
+        font-size: x-large;
     }
 }

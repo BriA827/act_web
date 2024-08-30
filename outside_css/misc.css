@@ -18,22 +18,19 @@ h2{
     width: 80vw;
 }
 
-.swap{
+/* .inv{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .info{
     margin: 4%;
 }
 
-.ny_pirates{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.vid{
+    width: 90%;
 }
 
 /* computer */
@@ -53,15 +50,25 @@ h2{
         font-size: larger;
     }
     .image{
-        width: 30vw;
-    }
-    .swap{
-        flex-direction: column;
-        justify-content: space-around;
-        margin: 0 5%;
+        width: 25vw;
+        margin: 2% 0;
     }
     .info{
-        width: 60%;
         margin: 1% 0 2% 0;
+    }
+    .vid{
+        width: 50vw;
+        margin-top: 3%;
+    }
+    .inv{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: start;
+        justify-content: center;
+    }
+    .group{
+        width: 35%;
+        margin: 0 3%;
     }
 }

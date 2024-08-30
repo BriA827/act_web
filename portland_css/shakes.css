@@ -8,8 +8,8 @@ p{
 }
 
 .text_side{
-    margin: 0 5%;
-    font-size: small;
+    margin: 1% 5%;
+    line-height: 2;
 }
 
 .imgs{
@@ -44,9 +44,9 @@ p{
     }
     .text_side{
         padding-top: 1%;
-        width: 80%;
         margin: 0 5% 0 10%;
-        font-size: medium;
+        width: 80%;
+        font-size: larger;
     }
     .image1{
         width: 22vw;
