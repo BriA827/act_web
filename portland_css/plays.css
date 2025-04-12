@@ -51,6 +51,11 @@ h2{
     width: 50vw
 }
 
+.knave_logo_link{
+    width: 70vw;
+    margin: 2% 0 10% 0;
+}
+
 @media (min-width: 700px) {
     h2{
         margin: 3% 0 0 0;
@@ -74,5 +79,9 @@ h2{
     .group{
         margin: 1%;
         padding: 1% 5%;
+    }
+    .knave_logo_link{
+        width: 30vw;
+        margin: 0% 0 15% 0;
     }
 }

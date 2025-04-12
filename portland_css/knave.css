@@ -55,7 +55,8 @@ h2{
     }
 
     .story_start{
-        width: 20vw;
+        width: 25vw;
+        padding: 0;
     }
 
     .story_stuff > hr{
