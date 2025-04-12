@@ -12,7 +12,6 @@ h2{
     box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.274);
 }
 
-
 .story_start{
     width: 85vw;
     padding: 1% 1% 2% 4%;
@@ -26,15 +25,11 @@ h2{
 }
 
 .story_stuff > hr{
-    margin-top: 2%;
-}
-
-.story_section{
-    margin-bottom: 4%;
+    margin: 2% 0;
 }
 
 .story_stuff > h2, .story_section>h2{
-    margin: 2% 0% 5% 0%;
+    margin: 5% 0% 5% 0%;
     font-size: 1.5rem;
 }
 
@@ -43,25 +38,50 @@ h2{
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.199);
 }
 
+.story_end{
+    width: 20vw;
+    margin-bottom: 5%;
+    padding-left: 3%;
+}
+
 @media (min-width: 700px) {
     h2{
         margin: 3% 0 0 0;
-        padding-left: 2%;
+        padding-left: 1%;
     }
+
     hr{
         margin: 2%;
     }
-    .story{
+
+    .story_start{
+        width: 20vw;
+    }
+
+    .story_stuff > hr{
+        display: flex;
+    }
+
+    .story_stuff > h2{
+        margin: 7% 0 5% 0;
+    }
+
+    .desk_section{
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .story_section{
+        width: 30vw;
     }
 
     .story_text{
         width: 30%;
     }
 
-    .story_image{
+    .story_end{
         width: 20%;
     }
 }
