@@ -40,8 +40,16 @@ h2{
 
 .story_end{
     width: 20vw;
-    margin-bottom: 5%;
     padding-left: 3%;
+}
+
+.intro>h2{
+    margin-top: 1%;
+}
+
+.info{
+    color: var(--yellow3);
+    margin: 0 5%;
 }
 
 @media (min-width: 700px) {
