@@ -57,6 +57,7 @@ h2{
     .story_start{
         width: 25vw;
         padding: 0;
+        cursor: pointer;
     }
 
     .story_stuff > hr{
@@ -84,5 +85,6 @@ h2{
 
     .story_end{
         width: 20%;
+        cursor: pointer;
     }
 }

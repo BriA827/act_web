@@ -83,5 +83,6 @@ h2{
     .knave_logo_link{
         width: 30vw;
         margin: 0% 0 15% 0;
+        cursor: pointer;
     }
 }
