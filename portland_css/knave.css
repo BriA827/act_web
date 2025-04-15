@@ -63,6 +63,20 @@ h2{
     line-height: 1.5;
 }
 
+.chunk_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.down_arrow{
+    color: var(--yellow3);
+    margin-left: 5%;
+    padding-top: 2%;
+}
+
 @media (min-width: 700px) {
     h2{
         margin: 3% 0 0 0;
