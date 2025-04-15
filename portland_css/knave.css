@@ -43,13 +43,24 @@ h2{
     padding-left: 3%;
 }
 
-.intro>h2{
-    margin-top: 1%;
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    margin-bottom: 3%;
+    font-size: x-large;
+    color: var(--yellow2);
 }
 
 .info{
+    display: none;
     color: var(--yellow3);
-    margin: 0 5%;
+    margin: 3% 5%;
+    line-height: 1.5;
 }
 
 @media (min-width: 700px) {
@@ -96,5 +107,22 @@ h2{
 
     .story_start:hover, .story_end:hover{
         cursor: pointer;
+    }
+
+    .first{
+        flex-direction: row;
+        align-items: start;
+    }
+
+    .chunk{
+        width: 40%;
+    }
+
+    .title{
+        font-size: xx-large;
+    }
+    .info{
+        font-size: larger;
+        display: flex;
     }
 }
