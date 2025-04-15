@@ -2,7 +2,7 @@ storyTitle = document.querySelector(".story_start")
 storyStuff = document.querySelector(".story_stuff")
 storyEnd = document.querySelector(".story_end")
 
-titleBtns = document.querySelectorAll(".title")
+titleBtns = document.querySelectorAll(".down_arrow")
 infoPs = document.querySelectorAll(".info")
 
 storyTitle.addEventListener("click", ()=>{
@@ -19,7 +19,7 @@ storyEnd.addEventListener("click", ()=>{
 titleBtns.forEach((titleBtn) => {
     titleBtn.addEventListener("click", ()=>{
         for (const info of infoPs) {
-            if (info.className.includes(titleBtn.textContent)){
+            if (info.id.includes(titleBtn.id)){
                 info.style.display = "flex"
             }
         }
