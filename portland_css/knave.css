@@ -48,6 +48,8 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 80vw;
+    margin-bottom: 5%;
 }
 
 .title{
@@ -59,22 +61,28 @@ h2{
 .info{
     display: none;
     color: var(--yellow3);
-    margin: 3% 5%;
     line-height: 1.5;
+    margin: 0 5% 3% 5%;
 }
 
 .chunk_top{
     display: flex;
     flex-direction: row;
+    width: 80vw;
     justify-content: center;
     align-items: center;
-    padding-left: 10%;
 }
 
-.down_arrow{
+.down_arrow, .up_arrow{
     color: var(--yellow3);
-    margin-left: 5%;
     align-self: center;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+.up_arrow{
+    display: none;
+    rotate: 180deg
 }
 
 @media (min-width: 700px) {
@@ -124,12 +132,7 @@ h2{
     }
 
     .first{
-        flex-direction: row;
-        align-items: start;
-    }
-
-    .chunk{
-        width: 40%;
+        margin-top: 3%;
     }
 
     .title{
@@ -138,5 +141,9 @@ h2{
     .info{
         font-size: larger;
         display: flex;
+    }
+
+    .up_arrow, .down_arrow{
+        display: none;
     }
 }
