@@ -41,6 +41,7 @@ h2{
 .story_end{
     width: 20vw;
     padding-left: 3%;
+    margin-top: 2%;
 }
 
 .first{
@@ -49,7 +50,7 @@ h2{
     justify-content: center;
     align-items: center;
     width: 80vw;
-    margin-bottom: 5%;
+    margin-top: 1%;
 }
 
 .title{
@@ -71,6 +72,7 @@ h2{
     width: 80vw;
     justify-content: center;
     align-items: center;
+    padding-left: 8%;
 }
 
 .down_arrow, .up_arrow{
@@ -125,6 +127,7 @@ h2{
 
     .story_end{
         width: 20%;
+        margin-right: 2%;
     }
 
     .story_start:hover, .story_end:hover{
@@ -133,6 +136,10 @@ h2{
 
     .first{
         margin-top: 3%;
+    }
+
+    .chunk_top{
+        padding-left:1%;
     }
 
     .title{
