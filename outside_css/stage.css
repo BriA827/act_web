@@ -70,7 +70,7 @@ h2{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: 3%;
+    margin: 3% 0;
 }
 
 .info{
@@ -192,7 +192,6 @@ h2{
     }
 
     .buttons{
-        margin: 3% 0;
         padding: 0 13%;
         justify-content: space-between;
     }

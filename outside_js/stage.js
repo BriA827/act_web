@@ -12,7 +12,6 @@ function update_photo(slideSourceValue) {
     slideCount = 0
     slideSource = slideSourceValue
     slideMain.src = "../designs/crafts/" + slideSource[slideCount] + ".png"
-    console.log("click")
 }
 
 selectBtnDonkey.addEventListener("click", () => update_photo(slideSourceDonkey))
